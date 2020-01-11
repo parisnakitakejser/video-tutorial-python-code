@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+{% for employe in employes %}
+<li>{{employe.name}}: {{employe.office}}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
