@@ -1,0 +1,22 @@
+{% extends "main.html" %}
+
+{% block content %}
+<ul>
+    <li><a href="{% url 'cookie-page' %}">Set Cookie Demo ({{ cookie_data }})</a></li>
+    <li><a href="{% url 'session-page' %}">Set Session</a></li>
+</ul>
+
+<hr />
+
+<strong>Session data</strong>
+{{ session }}
+
+<h1 style="margin-bottom: 0; padding-bottom: 0;">{{ title }}</h1>
+<p>{{ description }}</p>
+
+<ul>
+    {% for post in posts %}
+    <li><a href="{% url 'post-details' post.id %}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

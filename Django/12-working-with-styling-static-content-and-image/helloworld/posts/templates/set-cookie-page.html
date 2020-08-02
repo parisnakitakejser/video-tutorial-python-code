@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% load static %}
+
+{% block content %}
+<img src="{% static 'image/cookie-lover.jpg' %}" width="100" />
+<h1>Set cookie pages!</h1><br />
+<p>You have set the cookie now</p>
+
+<a href="{% url 'list-post' %}"><- Go back</a>
+{% endblock %}

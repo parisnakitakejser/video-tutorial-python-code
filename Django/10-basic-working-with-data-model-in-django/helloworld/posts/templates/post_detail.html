@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>{{ post.title }}</h1>
+<small>
+    Created at {{ post.created_at }} in category: <code>{{ post.category }}</code>
+</small>
+
+<hr />
+{{ post.content }}
+
+<hr />
+
+<a href="/posts"><- Go back</a>
+
+{% endblock %}
