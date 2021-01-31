@@ -1,0 +1,19 @@
+import os
+import boto3
+from dotenv import load_dotenv
+load_dotenv()
+
+access_token = 'eyJraWQiOiJnTmtDd3JITHNtWkFWQ1hTK2JndTQ2dEl4d3IyXC9oZUlpQkNcL3ltQVVWT3c9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJlNWM0ZGIyOS02YjIwLTRiMDktYmJiZC0wMDI0OGI0OTMzNDQiLCJldmVudF9pZCI6IjgxZDc5MzEyLTVmYWUtNDAzYy1hN2E5LTYyZjA3MzAwZDljZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MTIwOTM1MjAsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbVwvZXUtY2VudHJhbC0xX2RaNWJ1emRpcSIsImV4cCI6MTYxMjA5NzEyMCwiaWF0IjoxNjEyMDkzNTIwLCJqdGkiOiIwZjNiNmE5Mi1lNDY1LTRmOTUtOTVmMy1lYmJkNWI0NWU2NzgiLCJjbGllbnRfaWQiOiIza2U1a2M1cWlrYmExbmljdjJrcmRzZjdjdSIsInVzZXJuYW1lIjoiZTVjNGRiMjktNmIyMC00YjA5LWJiYmQtMDAyNDhiNDkzMzQ0In0.ePAGNM6F-GYJiRlcgE8u3Zk_3d3qnZuyCY6npLyFzEadTqgwTfS9u8zeDTvL4ZEv4cSB4IEProdKpE6O8s9B5vhTP-v1Tz1nrNWNjgS0w1pf3MFNqHUPDfOKALiNn62929qyt2R-SigSeucmnSFXlP0Hm9GiQ9mn_vqXGas2ibE_lJMKhwtA-kPiD3_89nr5ViYQymA2WVTtF3FqjnQmqXxY8JBwBmM3D1wWtjEqNfrs9RCbvEUxRkdCJ-_1_2Dk6TyAVMYZveAMfWewfoj65He6vXr9YxwMzZ6f6CI50l80KHxF67SzsQKnyAvQww03kuT3qWLyLJRwwc1l1odqCw'
+
+client = boto3.client('cognito-idp', region_name=os.getenv('COGNITO_REGION_NAME'))
+response = client.get_user(
+    AccessToken=access_token
+)
+
+attr_sub = None
+for attr in response['UserAttributes']:
+    if attr['Name'] == 'sub':
+        attr_sub = attr['Value']
+        break
+
+print('UserSub', attr_sub)
