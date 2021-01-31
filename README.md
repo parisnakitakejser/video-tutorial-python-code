@@ -1,6 +1,6 @@
 # video-tutorial-python-code
 
-I got recorded and published 62 python video tutorials, and still keep published new videos.
+I got recorded and published 65 python video tutorials, and still keep published new videos.
 
 **Python video course:**
 
@@ -12,3 +12,4 @@ I got recorded and published 62 python video tutorials, and still keep published
 - [Jinja in Python](https://www.pnk.sh/courses/jinja-in-python) - 5 videos with 25 min playtime.
 - [Unittest](https://www.youtube.com/playlist?list=PLLhEJK7fQIxDzwRtCqllU0-YVeF8un9aK) - 6 videos
 - [MongoEngine in Python](https://www.pnk.sh/courses/mongoengine-in-python) - 8 videos with 1 hour 11 min playtime.
+- [AWS Cognito with Python](https://www.youtube.com/playlist?list=PLLhEJK7fQIxDSD-5FgBuegurOjzGwjtzw) - 4 videos
