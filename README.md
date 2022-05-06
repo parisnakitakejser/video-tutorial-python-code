@@ -57,7 +57,7 @@ Coming soon
 Coming soon
 
 # Database
-> If you did not know much about [Docker](https://www.pnk.sh/skills/docker) then you can start here to learn more about how to work with Docker and how to use Docker in general.
+Coming soon
 
 ## Elastic
 Coming soon
