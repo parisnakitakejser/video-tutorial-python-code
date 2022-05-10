@@ -87,7 +87,7 @@ Coming soon
 - [AWS Cognito with Python](https://www.pnk.sh/courses/aws-cognito-with-python) - 4 videos with 31 min playtime.
 
 ## CDK
-Coming soon
+- [Create a DynamoDB and grant access to Lambda functions and attach it to an API Gateway with AWS CDK](https://medium.com/devops-techable/create-a-dynamodb-and-grant-access-to-lambda-functions-and-attach-it-to-an-api-gateway-with-aws-cdk-feabd3a6c925) - 5 min read - Medium Article
 
 # Testing
 Coming soon

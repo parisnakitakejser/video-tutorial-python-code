@@ -1,2 +1,4 @@
 ﻿*.pyc
 .dccache
+venv
+cdk.out
