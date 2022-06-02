@@ -1,0 +1,39 @@
+name: pymongo - layer
+
+on:
+  push: 
+    branches:
+      - main
+    paths:
+			- pymongo/requirements.txt
+
+jobs:
+  python39:
+    name: pymongo - Python 3.9
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: eu-west-1
+
+      - name: Install requirements packages
+        working-directory: ./pymongo
+        run: |
+          mkdir python
+          pip3 install -t python -r requirements.txt
+          zip -r pymongo.zip python
+          rm -rf python
+
+      - name: Install requirements packages
+        working-directory: ./pymongo
+        run: aws lambda publish-layer-version --layer-name pymongo --zip-file fileb://./pymongo.zip

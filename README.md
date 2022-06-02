@@ -90,6 +90,7 @@ Coming soon
 - [Create a DynamoDB and grant access to Lambda functions and attach it to an API Gateway with AWS CDK](https://medium.com/devops-techable/create-a-dynamodb-and-grant-access-to-lambda-functions-and-attach-it-to-an-api-gateway-with-aws-cdk-feabd3a6c925) - 5 min read - Medium Article
 - [Create a custom authorizer with a single Lambda function to the API Gateway in AWS to handle custom authentication integration](https://medium.com/devops-techable/create-a-custom-authorizer-with-a-single-lambda-function-to-the-api-gateway-in-aws-to-handle-custom-526373e17f61) - 3 min read - Medium Article
 - [Reduces your NAT-traffic bill with Amazon VPC Endpoint (AWS PrivateLink) between AWS services and private VPC in AWS CDK](https://medium.com/devops-techable/reduces-your-nat-traffic-bill-with-amazon-vpc-endpoint-aws-privatelink-between-aws-services-and-cc1b792963fd) - 3 min read - Medium Article
+
 # Testing
 Coming soon
 
