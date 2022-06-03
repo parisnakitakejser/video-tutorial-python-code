@@ -78,7 +78,7 @@ Coming soon!
 Coming soon
 
 ## Lambda
-Coming soon
+- [How to work with Lambda Layers](https://medium.com/devops-techable/how-to-work-with-lambda-layers-352ddb32f345) - 4 min read - Medium Article
 
 ## API Gateway
 Coming soon
