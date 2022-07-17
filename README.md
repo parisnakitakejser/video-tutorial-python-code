@@ -99,3 +99,6 @@ Coming soon
 
 ## Mock
 Coming soon
+
+## LocalStack - AWS Services locally
+- [How you can test your AWS cloud infrastructure locally with Pytest and LocalStack inside a Docker containers](https://medium.com/devops-techable/how-you-can-test-your-aws-cloud-infrastructure-locally-with-pytest-and-localstack-inside-a-docker-db4bccfa422) - 5 min read - Medium Article
