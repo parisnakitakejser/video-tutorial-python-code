@@ -2,3 +2,4 @@
 .dccache
 venv
 cdk.out
+.DS_Store

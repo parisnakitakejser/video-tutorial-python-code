@@ -1,0 +1,5 @@
+boto3
+pytest
+black
+flake8
+python-dotenv
