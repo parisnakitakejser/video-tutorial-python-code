@@ -21,6 +21,7 @@ You will find my code assets here. If you like what you are seen then pls subscr
   - [Redis](#redis)
 - [AWS - Amazon Web Service](#aws-amazon-web-service)
   - [S3](#s3)
+  - [DynamoDB](#dynamodb)
   - [Lambda](#lambda)
   - [API Gateway](#api-gateway)
   - [Cognito](#cognito)
@@ -76,6 +77,9 @@ Coming soon!
 
 ## S3
 Coming soon
+
+## DynamoDB
+- [How to use DynamoDB Stream to trigger events nearly real-time data when DynamoDB table items are changed](https://medium.com/devops-techable/dynamodb-streams-to-get-nearly-real-time-data-on-dynamodb-event-changes-ed1795abcfd5) - 3 min read - Medium Article
 
 ## Lambda
 - [How to work with Lambda Layers](https://medium.com/devops-techable/how-to-work-with-lambda-layers-352ddb32f345) - 4 min read - Medium Article
