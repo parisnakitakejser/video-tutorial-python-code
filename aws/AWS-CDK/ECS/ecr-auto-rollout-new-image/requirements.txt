@@ -1,0 +1,7 @@
+aws-cdk-lib==2.42.1
+boto3==1.24.20
+
+# Local development tools
+flake8
+python-dotenv==0.20.0
+black
