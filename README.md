@@ -95,6 +95,7 @@ Coming soon
 - [Create a custom authorizer with a single Lambda function to the API Gateway in AWS to handle custom authentication integration](https://medium.com/devops-techable/create-a-custom-authorizer-with-a-single-lambda-function-to-the-api-gateway-in-aws-to-handle-custom-526373e17f61) - 3 min read - Medium Article
 - [Reduces your NAT-traffic bill with Amazon VPC Endpoint (AWS PrivateLink) between AWS services and private VPC in AWS CDK](https://medium.com/devops-techable/reduces-your-nat-traffic-bill-with-amazon-vpc-endpoint-aws-privatelink-between-aws-services-and-cc1b792963fd) - 3 min read - Medium Article
 - [How to auto-deploy a new Docker image from ECR when a new image version is pushed and ready to deploy to an ECS Cluster](https://medium.com/devops-techable/how-to-auto-deploy-a-new-docker-image-from-ecr-when-a-new-image-version-is-pushed-and-ready-to-9025be59a4f) - 5 min read - Medium Article
+- [Reduce your application cost, by using a single Application Load Balancer with a multi-domain name with Route53 A Record alias using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/reduce-your-application-cost-by-using-a-single-application-load-balancer-with-a-multi-domain-name-e9e346fa879a) - 4 min read  - Medium Article
 
 # Testing
 Coming soon
