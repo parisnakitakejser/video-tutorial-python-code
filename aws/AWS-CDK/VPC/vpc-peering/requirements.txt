@@ -1,0 +1,4 @@
+aws-cdk-lib==2.43.0
+flake8
+boto3
+black
