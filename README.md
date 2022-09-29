@@ -96,6 +96,8 @@ Coming soon
 - [Reduces your NAT-traffic bill with Amazon VPC Endpoint (AWS PrivateLink) between AWS services and private VPC in AWS CDK](https://medium.com/devops-techable/reduces-your-nat-traffic-bill-with-amazon-vpc-endpoint-aws-privatelink-between-aws-services-and-cc1b792963fd) - 3 min read - Medium Article
 - [How to auto-deploy a new Docker image from ECR when a new image version is pushed and ready to deploy to an ECS Cluster](https://medium.com/devops-techable/how-to-auto-deploy-a-new-docker-image-from-ecr-when-a-new-image-version-is-pushed-and-ready-to-9025be59a4f) - 5 min read - Medium Article
 - [Reduce your application cost, by using a single Application Load Balancer with a multi-domain name with Route53 A Record alias using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/reduce-your-application-cost-by-using-a-single-application-load-balancer-with-a-multi-domain-name-e9e346fa879a) - 4 min read  - Medium Article
+- [How to use VPC Peering in AWS CDK construct with Python between a Public VPC Network to Private Isolated VPC Network](https://medium.com/devops-techable/how-to-use-vpc-peering-in-aws-cdk-construct-with-python-between-a-public-vpc-network-to-private-d7aca9254ef5) - 3 min read - Medium Article
+- [How to use Certificate Manager to support encrypted traffic in application load balancer in AWS CDK with Python](https://medium.com/devops-techable/how-to-use-certificate-manager-to-support-encrypted-traffic-in-application-load-balancer-in-aws-cdk-2339ed9ac654) - 4 min read - Medium Article
 
 # Testing
 Coming soon
