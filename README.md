@@ -99,6 +99,7 @@ Coming soon
 - [How to use VPC Peering in AWS CDK construct with Python between a Public VPC Network to Private Isolated VPC Network](https://medium.com/devops-techable/how-to-use-vpc-peering-in-aws-cdk-construct-with-python-between-a-public-vpc-network-to-private-d7aca9254ef5) - 3 min read - Medium Article
 - [How to use Certificate Manager to support encrypted traffic in application load balancer in AWS CDK with Python](https://medium.com/devops-techable/how-to-use-certificate-manager-to-support-encrypted-traffic-in-application-load-balancer-in-aws-cdk-2339ed9ac654) - 4 min read - Medium Article
 
+- [Track your Lambda or other AWS Resources near-realtime with cloudwatch metrics using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/track-your-lambda-or-other-aws-resources-near-realtime-with-cloudwatch-metrics-using-aws-cdk-as-58bb3131c5d2) - 8 min read - Medium Article
 # Testing
 Coming soon
 
