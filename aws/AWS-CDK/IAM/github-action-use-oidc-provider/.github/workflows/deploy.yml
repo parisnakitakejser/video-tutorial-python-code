@@ -1,0 +1,43 @@
+# The workflow Creates static website using aws s3
+name: AWS Workflow
+on: [ push ]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  CheckAccess:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git clone the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          architecture: 'x64'
+          cache: 'pip'
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Install dependencies
+        run: npm install -g aws-cdk
+
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@master
+        with:
+          role-to-assume: arn:aws:iam::{account-id}:role/secure-cloud-access
+          aws-region: eu-west-1
+
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name:  Deploy stack
+        run: |
+          cdk deploy --all --require-approval never
