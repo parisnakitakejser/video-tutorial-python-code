@@ -100,6 +100,9 @@ Coming soon
 - [How to use Certificate Manager to support encrypted traffic in application load balancer in AWS CDK with Python](https://medium.com/devops-techable/how-to-use-certificate-manager-to-support-encrypted-traffic-in-application-load-balancer-in-aws-cdk-2339ed9ac654) - 4 min read - Medium Article
 
 - [Track your Lambda or other AWS Resources near-realtime with cloudwatch metrics using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/track-your-lambda-or-other-aws-resources-near-realtime-with-cloudwatch-metrics-using-aws-cdk-as-58bb3131c5d2) - 8 min read - Medium Article
+
+- [How do automatic disable an AWS Lambda function without removing the function using AWS CDK](https://medium.com/devops-techable/how-do-automatic-disable-an-aws-lambda-function-without-removing-the-function-using-aws-cdk-4afc3daf04d2) - 3 min read - Medium Article
+
 # Testing
 Coming soon
 
