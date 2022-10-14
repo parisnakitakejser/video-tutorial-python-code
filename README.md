@@ -103,6 +103,8 @@ Coming soon
 
 - [How do automatic disable an AWS Lambda function without removing the function using AWS CDK](https://medium.com/devops-techable/how-do-automatic-disable-an-aws-lambda-function-without-removing-the-function-using-aws-cdk-4afc3daf04d2) - 3 min read - Medium Article
 
+- [Start using OIDC Provider today, and STOP immediately using the static AWS credentials in your GitHub Actions CI/CD Pipeline to prevent the risk of credentials leaks](https://medium.com/devops-techable/start-using-oidc-provider-today-and-stop-immediately-using-the-static-aws-credentials-in-your-dfa1a82d9ac2) - 4 min read - Medium Article
+
 # Testing
 Coming soon
 
