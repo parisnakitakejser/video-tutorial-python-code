@@ -84,6 +84,8 @@ Coming soon
 ## Lambda
 - [How to work with Lambda Layers](https://medium.com/devops-techable/how-to-work-with-lambda-layers-352ddb32f345) - 4 min read - Medium Article
 
+- [Copy data from S3 into EFS with a Lambda function with AWS CDK in Python](https://medium.com/devops-techable/copy-data-from-s3-into-efs-with-a-lambda-function-with-aws-cdk-in-python-aws-cdk-3a4612ae265c) - 3 min read - Medium Article
+
 ## API Gateway
 Coming soon
 
