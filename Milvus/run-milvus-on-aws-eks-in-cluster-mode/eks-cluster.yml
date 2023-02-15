@@ -1,0 +1,21 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: eks-cluster
+  region: eu-west-1
+
+nodeGroups:
+  - name: ng-databases
+    labels: { role: databases }
+    instanceType: m6i.4xlarge
+    desiredCapacity: 3
+    volumeSize: 80
+    iam:
+      withAddonPolicies:
+        ebs: true
+
+addons:
+- name: aws-ebs-csi-driver
+- name: vpc-cni
+- name: coredns
+- name: kube-proxy

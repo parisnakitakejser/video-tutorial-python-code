@@ -19,6 +19,7 @@ You will find my code assets here. If you like what you are seen then pls subscr
   - [MongoDB](#mongodb)
   - [MySQL](#mysql)
   - [Redis](#redis)
+  - [Milvus](#milvus)
 - [AWS - Amazon Web Service](#aws-amazon-web-service)
   - [S3](#s3)
   - [DynamoDB](#dynamodb)
@@ -71,6 +72,9 @@ Coming soon
 
 ## Redis
 Coming soon
+
+## Milvus
+- [Run a Milvus vector database inside your Amazon EKS (Elastic Kubernetes Service) in cluster mode](run-a-milvus-vector-database-inside-your-amazon-eks-elastic-kubernetes-service-in-cluster-mode-680fc5dfa3ae) - 4 min read - Medium Article
 
 # AWS - Amazon Web Service
 Coming soon!
