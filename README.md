@@ -88,6 +88,8 @@ Coming soon
 ## Lambda
 - [How to work with Lambda Layers](https://medium.com/devops-techable/how-to-work-with-lambda-layers-352ddb32f345) - 4 min read - Medium Article
 
+- [Copy data from S3 into EFS with a Lambda function with AWS CDK in Python](https://medium.com/devops-techable/copy-data-from-s3-into-efs-with-a-lambda-function-with-aws-cdk-in-python-aws-cdk-3a4612ae265c) - 3 min read - Medium Article
+
 ## API Gateway
 Coming soon
 
@@ -98,10 +100,24 @@ Coming soon
 - [Create a DynamoDB and grant access to Lambda functions and attach it to an API Gateway with AWS CDK](https://medium.com/devops-techable/create-a-dynamodb-and-grant-access-to-lambda-functions-and-attach-it-to-an-api-gateway-with-aws-cdk-feabd3a6c925) - 5 min read - Medium Article
 - [Create a custom authorizer with a single Lambda function to the API Gateway in AWS to handle custom authentication integration](https://medium.com/devops-techable/create-a-custom-authorizer-with-a-single-lambda-function-to-the-api-gateway-in-aws-to-handle-custom-526373e17f61) - 3 min read - Medium Article
 - [Reduces your NAT-traffic bill with Amazon VPC Endpoint (AWS PrivateLink) between AWS services and private VPC in AWS CDK](https://medium.com/devops-techable/reduces-your-nat-traffic-bill-with-amazon-vpc-endpoint-aws-privatelink-between-aws-services-and-cc1b792963fd) - 3 min read - Medium Article
+
 - [How to auto-deploy a new Docker image from ECR when a new image version is pushed and ready to deploy to an ECS Cluster](https://medium.com/devops-techable/how-to-auto-deploy-a-new-docker-image-from-ecr-when-a-new-image-version-is-pushed-and-ready-to-9025be59a4f) - 5 min read - Medium Article
+
+- [Learn how to use the EFS mount point in your ECS Cluster running Fargate with AWS CDK](https://medium.com/devops-techable/learn-how-to-use-the-efs-mount-point-in-your-ecs-cluster-running-fargate-with-aws-cdk-e5c9df435c8b) - 4 min read - Medium Article
+
 - [Reduce your application cost, by using a single Application Load Balancer with a multi-domain name with Route53 A Record alias using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/reduce-your-application-cost-by-using-a-single-application-load-balancer-with-a-multi-domain-name-e9e346fa879a) - 4 min read  - Medium Article
+
 - [How to use VPC Peering in AWS CDK construct with Python between a Public VPC Network to Private Isolated VPC Network](https://medium.com/devops-techable/how-to-use-vpc-peering-in-aws-cdk-construct-with-python-between-a-public-vpc-network-to-private-d7aca9254ef5) - 3 min read - Medium Article
+
+- [How to use VPC Peering cross-accounts in AWS CDK in Python between two different VPC Networks between AWS Accounts](https://medium.com/@parisnakitakejser/how-to-use-vpc-peering-cross-accounts-in-aws-cdk-in-python-between-two-different-vpc-networks-ec7f878d6dc3) - 3 min read - Medium Article
+
 - [How to use Certificate Manager to support encrypted traffic in application load balancer in AWS CDK with Python](https://medium.com/devops-techable/how-to-use-certificate-manager-to-support-encrypted-traffic-in-application-load-balancer-in-aws-cdk-2339ed9ac654) - 4 min read - Medium Article
+
+- [Track your Lambda or other AWS Resources near-realtime with cloudwatch metrics using AWS CDK as Infrastructure as Code](https://medium.com/devops-techable/track-your-lambda-or-other-aws-resources-near-realtime-with-cloudwatch-metrics-using-aws-cdk-as-58bb3131c5d2) - 8 min read - Medium Article
+
+- [How do automatic disable an AWS Lambda function without removing the function using AWS CDK](https://medium.com/devops-techable/how-do-automatic-disable-an-aws-lambda-function-without-removing-the-function-using-aws-cdk-4afc3daf04d2) - 3 min read - Medium Article
+
+- [Start using OIDC Provider today, and STOP immediately using the static AWS credentials in your GitHub Actions CI/CD Pipeline to prevent the risk of credentials leaks](https://medium.com/devops-techable/start-using-oidc-provider-today-and-stop-immediately-using-the-static-aws-credentials-in-your-dfa1a82d9ac2) - 4 min read - Medium Article
 
 # Testing
 Coming soon
