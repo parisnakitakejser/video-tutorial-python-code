@@ -74,7 +74,7 @@ Coming soon
 Coming soon
 
 ## Milvus
-- [Run a Milvus vector database inside your Amazon EKS (Elastic Kubernetes Service) in cluster mode](run-a-milvus-vector-database-inside-your-amazon-eks-elastic-kubernetes-service-in-cluster-mode-680fc5dfa3ae) - 4 min read - Medium Article
+- [Run a Milvus vector database inside your Amazon EKS (Elastic Kubernetes Service) in cluster mode](https://medium.com/devops-techable/run-a-milvus-vector-database-inside-your-amazon-eks-elastic-kubernetes-service-in-cluster-mode-680fc5dfa3ae) - 4 min read - Medium Article
 
 # AWS - Amazon Web Service
 Coming soon!
