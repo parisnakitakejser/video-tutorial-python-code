@@ -76,6 +76,8 @@ Coming soon
 ## Milvus
 - [Run a Milvus vector database inside your Amazon EKS (Elastic Kubernetes Service) in cluster mode](https://medium.com/devops-techable/run-a-milvus-vector-database-inside-your-amazon-eks-elastic-kubernetes-service-in-cluster-mode-680fc5dfa3ae) - 4 min read - Medium Article
 
+- [How to use Milvus Vector Database with scale and multi-in-memory replicate of a collection](https://medium.com/devops-techable/how-to-use-milvus-vector-database-with-scale-and-multi-in-memory-replicate-of-a-collection-2f435a607e19) - 4 min read - Medium Article
+
 # AWS - Amazon Web Service
 Coming soon!
 
