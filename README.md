@@ -78,6 +78,8 @@ Coming soon
 
 - [How to use Milvus Vector Database with scale and multi-in-memory replicate of a collection](https://medium.com/devops-techable/how-to-use-milvus-vector-database-with-scale-and-multi-in-memory-replicate-of-a-collection-2f435a607e19) - 4 min read - Medium Article
 
+- [Enable Auth and create a new user in your Milvus Cluster on Kubernetes with Helm](https://medium.com/devops-techable/enable-auth-and-create-a-new-user-in-your-milvus-cluster-on-kubernetes-with-helm-2e3f9f6d88e0) - 3 min read - Medium Article
+
 # AWS - Amazon Web Service
 Coming soon!
 
