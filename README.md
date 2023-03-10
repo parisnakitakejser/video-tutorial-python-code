@@ -51,6 +51,7 @@ Coming soon
 
 ## Flask
 - [Flask for beginners](https://www.pnk.sh/courses/flask-for-beginners) - 14 videos with 1 hour 25 min playtime.
+- [Export metrics from your Python Flask application to Prometheus in Kubernetes and watch your metrics data with Grafana](https://medium.com/devops-techable/export-metrics-from-your-python-flask-application-to-prometheus-in-kubernetes-and-watch-your-9d45164f7adc) - 3 min read - Medium Article
 
 ## Falcon
 - [Falcon for beginners](https://www.pnk.sh/courses/falcon-for-beginners) - 9 videos with 1 hour 5 min playtime.
