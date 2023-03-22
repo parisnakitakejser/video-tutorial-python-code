@@ -19,6 +19,7 @@ You will find my code assets here. If you like what you are seen then pls subscr
   - [MongoDB](#mongodb)
   - [MySQL](#mysql)
   - [Redis](#redis)
+  - [Milvus](#milvus)
 - [AWS - Amazon Web Service](#aws-amazon-web-service)
   - [S3](#s3)
   - [DynamoDB](#dynamodb)
@@ -50,6 +51,7 @@ Coming soon
 
 ## Flask
 - [Flask for beginners](https://www.pnk.sh/courses/flask-for-beginners) - 14 videos with 1 hour 25 min playtime.
+- [Export metrics from your Python Flask application to Prometheus in Kubernetes and watch your metrics data with Grafana](https://medium.com/devops-techable/export-metrics-from-your-python-flask-application-to-prometheus-in-kubernetes-and-watch-your-9d45164f7adc) - 3 min read - Medium Article
 
 ## Falcon
 - [Falcon for beginners](https://www.pnk.sh/courses/falcon-for-beginners) - 9 videos with 1 hour 5 min playtime.
@@ -71,6 +73,13 @@ Coming soon
 
 ## Redis
 Coming soon
+
+## Milvus
+- [Run a Milvus vector database inside your Amazon EKS (Elastic Kubernetes Service) in cluster mode](https://medium.com/devops-techable/run-a-milvus-vector-database-inside-your-amazon-eks-elastic-kubernetes-service-in-cluster-mode-680fc5dfa3ae) - 4 min read - Medium Article
+
+- [How to use Milvus Vector Database with scale and multi-in-memory replicate of a collection](https://medium.com/devops-techable/how-to-use-milvus-vector-database-with-scale-and-multi-in-memory-replicate-of-a-collection-2f435a607e19) - 4 min read - Medium Article
+
+- [Enable Auth and create a new user in your Milvus Cluster on Kubernetes with Helm](https://medium.com/devops-techable/enable-auth-and-create-a-new-user-in-your-milvus-cluster-on-kubernetes-with-helm-2e3f9f6d88e0) - 3 min read - Medium Article
 
 # AWS - Amazon Web Service
 Coming soon!

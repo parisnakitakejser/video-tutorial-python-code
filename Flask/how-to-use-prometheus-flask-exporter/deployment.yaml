@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-demo-deployment
+  labels:
+    app: flask
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask
+  template:
+    metadata:
+      labels:
+        app: flask
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io.scheme: "http"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "5001"
+    spec:
+      containers:
+      - name: flask
+        image: pnk/flask-demo
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5001

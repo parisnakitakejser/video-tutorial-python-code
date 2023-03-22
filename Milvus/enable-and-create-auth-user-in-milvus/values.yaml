@@ -1,0 +1,8 @@
+extraConfigFiles:
+  user.yaml: |+
+    common:
+      security:
+        authorizationEnabled: true
+        
+authorization:
+   enabled: true

@@ -1,0 +1,1 @@
+helm upgrade milvus milvus/milvus --set queryNode.replicas=3 --reuse-values
