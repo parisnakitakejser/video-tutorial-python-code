@@ -1,0 +1,10 @@
+aws-cdk-lib==2.70.0
+aws-cdk.aws-neptune-alpha==2.70.0a0
+aws-cdk.aws-glue-alpha==2.70.0a0
+gremlinpython
+boto3
+
+# Development
+flake8
+python-dotenv==0.20.0
+black
