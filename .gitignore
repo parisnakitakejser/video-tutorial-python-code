@@ -4,3 +4,4 @@ venv
 cdk.out
 .DS_Store
 aws/AWS-CDK/Neptune/create-neptune-cluster-with-bastion-host/.env
+.python-version
