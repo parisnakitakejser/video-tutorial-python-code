@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "doc": "Hotel booking events",
+  "name": "HotelBooking",
+  "fields": [
+    { "name": "name", "type": "string", "doc": "Customer name" },
+    { "name": "hotel", "type": "string", "doc": "Hotel name" },
+    { "name": "details", "type": "string", "doc": "Note from customer" },
+    {
+      "name": "dateFrom",
+      "type": "string",
+      "doc": "Booking from date"
+    },
+    {
+      "name": "dateTo",
+      "type": "string",
+      "doc": "Booking to date"
+    }
+  ]
+}

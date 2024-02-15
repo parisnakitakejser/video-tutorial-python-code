@@ -1,0 +1,55 @@
+version: "2"
+
+services:
+  zookeeper:
+    image: "bitnami/zookeeper:3.9.1"
+    ports:
+      - "2181:2181"
+    volumes:
+      - "./zookeeper_data:/bitnami"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+
+  kafka:
+    image: "bitnami/kafka:3.6.1"
+    container_name: kafka
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    volumes:
+      - "./kafka_data:/bitnami"
+      - "./kafka_log:/tmp/kafka_mounts/logs"
+    environment:
+      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_CFG_LOG_DIRS=/tmp/kafka_mounts/logs
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,PLAINTEXT_HOST://:29092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+    depends_on:
+      - zookeeper
+
+  kafka-connect:
+    image: "bitnami/kafka:3.6.1"
+    container_name: kafka_connect
+    ports:
+      - "8083:8083"
+    volumes:
+      - "./kafka_connect_data:/bitnami"
+      - "./kafka_connect_config/connect-distributed.properties:/opt/bitnami/kafka/config/connect-distributed.properties"
+      - "./kafka_connect_plugins/:/opt/connectors"
+    depends_on:
+      - zookeeper
+      - kafka
+    command: /opt/bitnami/kafka/bin/connect-distributed.sh /opt/bitnami/kafka/config/connect-distributed.properties
+
+  kafka-ui:
+    container_name: kafka-ui
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - 8080:8080
+    environment:
+      DYNAMIC_CONFIG_ENABLED: "true"
+    volumes:
+      - ./kui/config.yml:/etc/kafkaui/dynamic_config.yaml

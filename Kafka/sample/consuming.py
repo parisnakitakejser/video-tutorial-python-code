@@ -2,7 +2,7 @@ from kafka import KafkaConsumer
 import json
 
 consumer = KafkaConsumer(
-    bootstrap_servers='localhost:29092',
+    bootstrap_servers='localhost:9092',
     security_protocol="PLAINTEXT",
     value_deserializer=lambda v: json.loads(v.decode('ascii')),
     # auto_offset_reset='earliest'
